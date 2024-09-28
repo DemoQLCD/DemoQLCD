@@ -10,3 +10,4 @@ D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.dll
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\refint\DAL.dll
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.pdb
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\ref\DAL.dll
+D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.sourcelink.json
