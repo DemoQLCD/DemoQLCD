@@ -36,3 +36,5 @@ D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\refint\
 D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\GUI.pdb
 D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\GUI.genruntimeconfig.cache
 D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\ref\GUI.dll
+D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\GUI.sourcelink.json
+D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\GUI.Properties.Resources.resources
