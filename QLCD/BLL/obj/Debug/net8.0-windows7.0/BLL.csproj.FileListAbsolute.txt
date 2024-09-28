@@ -13,3 +13,4 @@ D:\Github\Phát triển PM\DemoQLCD\QLCD\BLL\obj\Debug\net8.0-windows7.0\BLL.dll
 D:\Github\Phát triển PM\DemoQLCD\QLCD\BLL\obj\Debug\net8.0-windows7.0\refint\BLL.dll
 D:\Github\Phát triển PM\DemoQLCD\QLCD\BLL\obj\Debug\net8.0-windows7.0\BLL.pdb
 D:\Github\Phát triển PM\DemoQLCD\QLCD\BLL\obj\Debug\net8.0-windows7.0\ref\BLL.dll
+D:\Github\Phát triển PM\DemoQLCD\QLCD\BLL\obj\Debug\net8.0-windows7.0\BLL.sourcelink.json

@@ -46,7 +46,7 @@ namespace GUI
                 if (Application.OpenForms["FormMain"] == null)
                 {
                     this.Hide();
-                    FormMain mainForm = new FormMain();
+                    FormMain mainForm = new FormMain(maNV); // Truyền mã NV vào constructor
                     mainForm.Show();
                 }
             }
