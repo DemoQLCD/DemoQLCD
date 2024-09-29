@@ -93,7 +93,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Tahoma", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(238, 86);
+            label1.Location = new Point(254, 57);
             label1.Name = "label1";
             label1.Size = new Size(490, 28);
             label1.TabIndex = 5;

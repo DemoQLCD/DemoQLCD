@@ -77,3 +77,5 @@ D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\bin\Debug\net8.0-windows7.0\runtime
 D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\bin\Debug\net8.0-windows7.0\runtimes\win-x64\native\libSkiaSharp.dll
 D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\bin\Debug\net8.0-windows7.0\runtimes\win-x86\native\libSkiaSharp.dll
 D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\GUI.TraCuu.resources
+D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\GUI.CongDan.resources
+D:\Github\Phát triển PM\DemoQLCD\QLCD\GUI\obj\Debug\net8.0-windows7.0\GUI.ThemCongDan.resources
