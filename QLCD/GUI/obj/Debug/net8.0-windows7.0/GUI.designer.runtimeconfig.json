@@ -16,7 +16,6 @@
       "C:\\Users\\dquan\\.nuget\\packages"
     ],
     "configProperties": {
-      "Windows.ApplicationModel.DataTransfer.DragDrop.ExternalSupport": true,
       "System.Reflection.NullabilityInfoContext.IsSupported": true,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
