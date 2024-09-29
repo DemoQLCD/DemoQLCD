@@ -48,6 +48,20 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows7.0",
+          "dependencies": {
+            "CSharpMarkup.WinUI.LiveChartsCore.SkiaSharpView": {
+              "target": "Package",
+              "version": "[2.4.18, )"
+            },
+            "LiveCharts.Core": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "LiveCharts.NetCore": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -109,6 +123,18 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows7.0",
           "dependencies": {
+            "CSharpMarkup.WinUI.LiveChartsCore.SkiaSharpView": {
+              "target": "Package",
+              "version": "[2.4.18, )"
+            },
+            "LiveCharts.Core": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "LiveCharts.NetCore": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
@@ -187,6 +213,18 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows7.0",
           "dependencies": {
+            "LiveCharts.Core": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "LiveCharts.NetCore": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "LiveChartsCore.SkiaSharpView.WinForms": {
+              "target": "Package",
+              "version": "[2.0.0-rc3.3, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.8, )"
