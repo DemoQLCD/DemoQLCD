@@ -41,7 +41,7 @@
             // txtMaNV
             // 
             txtMaNV.BorderStyle = BorderStyle.FixedSingle;
-            txtMaNV.Location = new Point(335, 256);
+            txtMaNV.Location = new Point(374, 246);
             txtMaNV.MaximumSize = new Size(500, 30);
             txtMaNV.Name = "txtMaNV";
             txtMaNV.Size = new Size(261, 27);
@@ -51,7 +51,7 @@
             // txtMatKhau
             // 
             txtMatKhau.BorderStyle = BorderStyle.FixedSingle;
-            txtMatKhau.Location = new Point(335, 319);
+            txtMatKhau.Location = new Point(374, 298);
             txtMatKhau.MaximumSize = new Size(500, 30);
             txtMatKhau.Name = "txtMatKhau";
             txtMatKhau.Size = new Size(261, 27);
@@ -61,7 +61,7 @@
             // 
             btnDangNhap.BackColor = Color.OrangeRed;
             btnDangNhap.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnDangNhap.Location = new Point(320, 352);
+            btnDangNhap.Location = new Point(359, 350);
             btnDangNhap.Name = "btnDangNhap";
             btnDangNhap.Size = new Size(276, 64);
             btnDangNhap.TabIndex = 2;
@@ -72,7 +72,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.pass;
-            pictureBox2.Location = new Point(297, 319);
+            pictureBox2.Location = new Point(320, 287);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(30, 38);
             pictureBox2.TabIndex = 4;
@@ -82,7 +82,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.user;
-            pictureBox1.Location = new Point(297, 256);
+            pictureBox1.Location = new Point(320, 246);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(32, 27);
             pictureBox1.TabIndex = 3;
@@ -112,7 +112,6 @@
             Controls.Add(btnDangNhap);
             Controls.Add(txtMatKhau);
             Controls.Add(txtMaNV);
-            Cursor = Cursors.Arrow;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             Name = "DangNhap";
             StartPosition = FormStartPosition.CenterScreen;

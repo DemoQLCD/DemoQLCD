@@ -1,5 +1,4 @@
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.csproj.AssemblyReference.cache
-D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.AssemblyInfoInputs.cache
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.AssemblyInfo.cs
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.csproj.CoreCompileInputs.cache
@@ -11,3 +10,4 @@ D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\refint\
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.pdb
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\ref\DAL.dll
 D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.sourcelink.json
+D:\Github\Phát triển PM\DemoQLCD\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig

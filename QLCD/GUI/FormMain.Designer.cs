@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            btnOpenTraCuu = new Button();
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
@@ -36,19 +36,23 @@
             label1 = new Label();
             lb_MaNV = new Label();
             panel1 = new Panel();
+            label4 = new Label();
+            label3 = new Label();
             label2 = new Label();
             lb_sodan = new Label();
             button6 = new Button();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // btnOpenTraCuu
             // 
-            button1.Location = new Point(14, 147);
-            button1.Name = "button1";
-            button1.Size = new Size(220, 56);
-            button1.TabIndex = 0;
-            button1.Text = "Tra Cứu";
-            button1.UseVisualStyleBackColor = true;
+            btnOpenTraCuu.Location = new Point(14, 147);
+            btnOpenTraCuu.Name = "btnOpenTraCuu";
+            btnOpenTraCuu.Size = new Size(220, 56);
+            btnOpenTraCuu.TabIndex = 0;
+            btnOpenTraCuu.Text = "Tra Cứu";
+            btnOpenTraCuu.UseVisualStyleBackColor = true;
+            btnOpenTraCuu.Click += btnOpenTraCuu_Click;
             // 
             // button2
             // 
@@ -91,7 +95,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.IndianRed;
-            label1.Location = new Point(38, 37);
+            label1.Location = new Point(877, 25);
             label1.Name = "label1";
             label1.Size = new Size(88, 23);
             label1.TabIndex = 5;
@@ -101,7 +105,7 @@
             // lb_MaNV
             // 
             lb_MaNV.AutoSize = true;
-            lb_MaNV.Location = new Point(38, 72);
+            lb_MaNV.Location = new Point(980, 27);
             lb_MaNV.Name = "lb_MaNV";
             lb_MaNV.Size = new Size(50, 20);
             lb_MaNV.TabIndex = 6;
@@ -110,10 +114,34 @@
             // panel1
             // 
             panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
             panel1.Location = new Point(259, 147);
             panel1.Name = "panel1";
             panel1.Size = new Size(895, 457);
             panel1.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.RoyalBlue;
+            label4.Location = new Point(617, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(175, 20);
+            label4.TabIndex = 1;
+            label4.Text = "Thống kê theo giới tính";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.RoyalBlue;
+            label3.Location = new Point(181, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(165, 20);
+            label3.TabIndex = 0;
+            label3.Text = "Thống kê theo độ tuổi";
             // 
             // label2
             // 
@@ -160,18 +188,20 @@
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnOpenTraCuu);
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Trang chủ";
             Load += FormMain_Load;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
+        private Button btnOpenTraCuu;
         private Button button2;
         private Button button3;
         private Button button4;
@@ -179,8 +209,11 @@
         private Label label1;
         private Label lb_MaNV;
         private Panel panel1;
+
         private Label label2;
         private Label lb_sodan;
         private Button button6;
+        private Label label4;
+        private Label label3;
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using BLL;
+using DAL;
 using Neo4j.Driver; // Ensure this is included for IDriver
 
 namespace GUI
@@ -14,7 +15,7 @@ namespace GUI
         {
             InitializeComponent();
             btnDangNhap.Click += new EventHandler(btnDangNhap_Click);
-            _neo4jDriver = GraphDatabase.Driver("neo4j://localhost:7687", AuthTokens.Basic("neo4j", "123456"));
+            _neo4jDriver = Neo4jConnectionManager.GetDriver();  // Lấy driver từ lớp quản lý kết nối
             _taiKhoanBLL = new TaiKhoanBLL(_neo4jDriver);
         }
 
