@@ -156,5 +156,20 @@ namespace GUI
             this.Hide();
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Tạo một thể hiện mới của form ThongTin và truyền MaNV
+            ThongTin formThongTin = new ThongTin
+            {
+                MaNV = this.MaNV // Chuyển Mã NV từ FormMain sang ThongTin
+            };
+
+            // Mở form ThongTin bằng Show()
+            formThongTin.Show();
+
+            // Ẩn FormMain
+            this.Hide();
+        }
     }
 }
