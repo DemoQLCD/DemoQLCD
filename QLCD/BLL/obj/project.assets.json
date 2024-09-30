@@ -91,24 +91,6 @@
           }
         }
       },
-      "LiveCharts.Core/0.9.8": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/LiveCharts.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/LiveCharts.dll": {}
-        }
-      },
-      "LiveCharts.NetCore/0.9.8": {
-        "type": "package",
-        "compile": {
-          "lib/net8.0/LiveCharts.dll": {}
-        },
-        "runtime": {
-          "lib/net8.0/LiveCharts.dll": {}
-        }
-      },
       "LiveChartsCore/2.0.0-rc2": {
         "type": "package",
         "compile": {
@@ -1135,8 +1117,6 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "CSharpMarkup.WinUI.LiveChartsCore.SkiaSharpView": "2.4.18",
-          "LiveCharts.Core": "0.9.8",
-          "LiveCharts.NetCore": "0.9.8",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Neo4j.Driver": "5.24.0",
           "Neo4jClient": "5.1.16"
@@ -1348,35 +1328,6 @@
         "runtimes/win-arm64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x64/native/libHarfBuzzSharp.dll",
         "runtimes/win-x86/native/libHarfBuzzSharp.dll"
-      ]
-    },
-    "LiveCharts.Core/0.9.8": {
-      "sha512": "USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
-      "type": "package",
-      "path": "livecharts.core/0.9.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net40/LiveCharts.dll",
-        "lib/netstandard2.0/LiveCharts.dll",
-        "livecharts.core.0.9.8.nupkg.sha512",
-        "livecharts.core.nuspec"
-      ]
-    },
-    "LiveCharts.NetCore/0.9.8": {
-      "sha512": "GZIhlPFFYJcVpj6E/Uc/A8/n2avmFaPPE2kPH9ruXzT8ZToBSHHYVQ9wJ03nyaW1KCP/7qkQ6pwdtyDooOAzhw==",
-      "type": "package",
-      "path": "livecharts.netcore/0.9.8",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net452/LiveCharts.dll",
-        "lib/net6.0/LiveCharts.dll",
-        "lib/net7.0/LiveCharts.dll",
-        "lib/net8.0/LiveCharts.dll",
-        "lib/netcoreapp3.1/LiveCharts.dll",
-        "livecharts.netcore.0.9.8.nupkg.sha512",
-        "livecharts.netcore.nuspec"
       ]
     },
     "LiveChartsCore/2.0.0-rc2": {
@@ -4483,9 +4434,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "CSharpMarkup.WinUI.LiveChartsCore.SkiaSharpView >= 2.4.18",
-      "DAL >= 1.0.0",
-      "LiveCharts.Core >= 0.9.8",
-      "LiveCharts.NetCore >= 0.9.8"
+      "DAL >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4539,14 +4488,6 @@
           "CSharpMarkup.WinUI.LiveChartsCore.SkiaSharpView": {
             "target": "Package",
             "version": "[2.4.18, )"
-          },
-          "LiveCharts.Core": {
-            "target": "Package",
-            "version": "[0.9.8, )"
-          },
-          "LiveCharts.NetCore": {
-            "target": "Package",
-            "version": "[0.9.8, )"
           }
         },
         "imports": [

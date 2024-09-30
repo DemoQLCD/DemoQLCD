@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "qKvEaRmkLyQ=",
+  "dgSpecHash": "D3WwJyvK6G8=",
   "success": true,
   "projectFilePath": "D:\\Github\\Phát triển PM\\DemoQLCD\\QLCD\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
@@ -9,8 +9,6 @@
     "C:\\Users\\dquan\\.nuget\\packages\\harfbuzzsharp\\7.3.0\\harfbuzzsharp.7.3.0.nupkg.sha512",
     "C:\\Users\\dquan\\.nuget\\packages\\harfbuzzsharp.nativeassets.macos\\7.3.0\\harfbuzzsharp.nativeassets.macos.7.3.0.nupkg.sha512",
     "C:\\Users\\dquan\\.nuget\\packages\\harfbuzzsharp.nativeassets.win32\\7.3.0\\harfbuzzsharp.nativeassets.win32.7.3.0.nupkg.sha512",
-    "C:\\Users\\dquan\\.nuget\\packages\\livecharts.core\\0.9.8\\livecharts.core.0.9.8.nupkg.sha512",
-    "C:\\Users\\dquan\\.nuget\\packages\\livecharts.netcore\\0.9.8\\livecharts.netcore.0.9.8.nupkg.sha512",
     "C:\\Users\\dquan\\.nuget\\packages\\livechartscore\\2.0.0-rc2\\livechartscore.2.0.0-rc2.nupkg.sha512",
     "C:\\Users\\dquan\\.nuget\\packages\\livechartscore.behaviours\\2.0.0-rc2\\livechartscore.behaviours.2.0.0-rc2.nupkg.sha512",
     "C:\\Users\\dquan\\.nuget\\packages\\livechartscore.skiasharpview\\2.0.0-rc2\\livechartscore.skiasharpview.2.0.0-rc2.nupkg.sha512",
