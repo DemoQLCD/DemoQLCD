@@ -116,6 +116,7 @@
             btnXemChiTiet.TabIndex = 9;
             btnXemChiTiet.Text = "Xem thông tin";
             btnXemChiTiet.UseVisualStyleBackColor = true;
+            btnXemChiTiet.Click += btnXemChiTiet_Click;
             // 
             // btnThemCongDan
             // 
@@ -125,6 +126,7 @@
             btnThemCongDan.TabIndex = 10;
             btnThemCongDan.Text = "Thêm";
             btnThemCongDan.UseVisualStyleBackColor = true;
+            btnThemCongDan.Click += btnThemCongDan_Click;
             // 
             // btnXoaCongDan
             // 
@@ -134,6 +136,7 @@
             btnXoaCongDan.TabIndex = 11;
             btnXoaCongDan.Text = "Xóa";
             btnXoaCongDan.UseVisualStyleBackColor = true;
+            btnXoaCongDan.Click += btnXoaCongDan_Click;
             // 
             // TraCuu
             // 

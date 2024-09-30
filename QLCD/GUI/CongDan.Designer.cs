@@ -233,6 +233,7 @@
             Name = "CongDan";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Chi tiết Công dân";
+            Load += CongDan_Load;
             ResumeLayout(false);
             PerformLayout();
         }
