@@ -36,6 +36,8 @@
             btnQuayLai = new Button();
             LtnLammoi = new Button();
             btnXemChiTiet = new Button();
+            btnThemCongDan = new Button();
+            btnXoaCongDan = new Button();
             ((System.ComponentModel.ISupportInitialize)dataCD).BeginInit();
             SuspendLayout();
             // 
@@ -98,7 +100,7 @@
             // 
             // LtnLammoi
             // 
-            LtnLammoi.Location = new Point(872, 164);
+            LtnLammoi.Location = new Point(872, 325);
             LtnLammoi.Name = "LtnLammoi";
             LtnLammoi.Size = new Size(102, 58);
             LtnLammoi.TabIndex = 7;
@@ -108,12 +110,33 @@
             // 
             // btnXemChiTiet
             // 
-            btnXemChiTiet.Location = new Point(872, 228);
+            btnXemChiTiet.Location = new Point(872, 153);
             btnXemChiTiet.Name = "btnXemChiTiet";
             btnXemChiTiet.Size = new Size(102, 56);
             btnXemChiTiet.TabIndex = 9;
             btnXemChiTiet.Text = "Xem thông tin";
             btnXemChiTiet.UseVisualStyleBackColor = true;
+            btnXemChiTiet.Click += btnXemChiTiet_Click;
+            // 
+            // btnThemCongDan
+            // 
+            btnThemCongDan.Location = new Point(872, 215);
+            btnThemCongDan.Name = "btnThemCongDan";
+            btnThemCongDan.Size = new Size(102, 49);
+            btnThemCongDan.TabIndex = 10;
+            btnThemCongDan.Text = "Thêm";
+            btnThemCongDan.UseVisualStyleBackColor = true;
+            btnThemCongDan.Click += btnThemCongDan_Click;
+            // 
+            // btnXoaCongDan
+            // 
+            btnXoaCongDan.Location = new Point(872, 270);
+            btnXoaCongDan.Name = "btnXoaCongDan";
+            btnXoaCongDan.Size = new Size(102, 49);
+            btnXoaCongDan.TabIndex = 11;
+            btnXoaCongDan.Text = "Xóa";
+            btnXoaCongDan.UseVisualStyleBackColor = true;
+            btnXoaCongDan.Click += btnXoaCongDan_Click;
             // 
             // TraCuu
             // 
@@ -121,6 +144,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.bg3;
             ClientSize = new Size(1011, 582);
+            Controls.Add(btnXoaCongDan);
+            Controls.Add(btnThemCongDan);
             Controls.Add(btnXemChiTiet);
             Controls.Add(LtnLammoi);
             Controls.Add(btnQuayLai);
@@ -148,5 +173,7 @@
         private Button btnQuayLai;
         private Button LtnLammoi;
         private Button btnXemChiTiet;
+        private Button btnThemCongDan;
+        private Button btnXoaCongDan;
     }
 }
