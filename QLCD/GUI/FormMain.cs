@@ -54,6 +54,7 @@ namespace GUI
             await LoadSoDan();
             await LoadGenderChart();
             await LoadAgeChart();
+           
         }
 
         private async Task LoadSoDan()
@@ -63,6 +64,20 @@ namespace GUI
             int soDan = record["SoDan"].As<int>();
             lb_sodan.Text = $"Số dân: {soDan}";
         }
+        public async void LoadData()
+        {
+            try
+            {
+                await LoadSoDan();
+                await LoadGenderChart();
+                await LoadAgeChart();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi tải lại dữ liệu: " + ex.Message);
+            }
+        }
+
 
         private async Task LoadGenderChart()
         {
@@ -156,6 +171,7 @@ namespace GUI
             this.Hide();
 
         }
+
 
         private void button2_Click(object sender, EventArgs e)
         {

@@ -3,31 +3,59 @@
   "WorkspaceRootPath": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\dal\\congdandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|solutionrelative:dal\\congdandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\congdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\congdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\tracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\tracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\tracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\tracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\congdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\congdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\tracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\tracuu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dquan\\.nuget\\packages\\epplus\\7.3.2\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\congdan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\congdan.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\dal\\neo4jconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|solutionrelative:dal\\neo4jconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dquan\\.nuget\\packages\\epplus\\7.3.2\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\formmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -40,22 +68,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\gui\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\thongtin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\themcongdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\congdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|solutionrelative:gui\\congdan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\dal\\neo4jconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|solutionrelative:dal\\neo4jconnectionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5BF903FB-71C7-47B7-AC3C-1AE3A7E79441}|GUI\\GUI.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\gui\\dangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -72,10 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CD1C028F-6A34-484A-8821-D13B95F4FB88}|BLL\\BLL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD1C028F-6A34-484A-8821-D13B95F4FB88}|BLL\\BLL.csproj|solutionrelative:bll\\taikhoanbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7656D16-DA9C-4C36-85A1-0B57CD46ED65}|DAL\\DAL.csproj|solutionrelative:dal\\taikhoandal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CD1C028F-6A34-484A-8821-D13B95F4FB88}|BLL\\BLL.csproj|d:\\github\\ph\u00E1t tri\u1EC3n pm\\demoqlcd\\qlcd\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -112,11 +120,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\BLL\\Class1.cs",
               "RelativeDocumentMoniker": "BLL\\Class1.cs",
@@ -125,66 +133,11 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T11:26:53.134Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ThongTin.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThongTin.cs",
-              "RelativeDocumentMoniker": "GUI\\ThongTin.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThongTin.cs",
-              "RelativeToolTip": "GUI\\ThongTin.cs",
-              "ViewState": "AgIAAFgBAAAAAAAAAAAUwHEBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:53:21.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ThemCongDan.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThemCongDan.cs",
-              "RelativeDocumentMoniker": "GUI\\ThemCongDan.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThemCongDan.cs [Design]",
-              "RelativeToolTip": "GUI\\ThemCongDan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T13:11:29.707Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormMain.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs",
-              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs",
-              "RelativeToolTip": "GUI\\FormMain.cs",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAIwKsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T17:50:10.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DangNhap.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\DangNhap.cs",
-              "RelativeDocumentMoniker": "GUI\\DangNhap.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\DangNhap.cs [Design]",
-              "RelativeToolTip": "GUI\\DangNhap.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T10:58:02.427Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CongDan.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\CongDan.cs",
               "RelativeDocumentMoniker": "GUI\\CongDan.cs",
@@ -192,47 +145,11 @@
               "RelativeToolTip": "GUI\\CongDan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T09:06:21.004Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TraCuu.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs",
-              "RelativeDocumentMoniker": "GUI\\TraCuu.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs [Design]",
-              "RelativeToolTip": "GUI\\TraCuu.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T08:26:44.651Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TraCuu.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs",
-              "RelativeDocumentMoniker": "GUI\\TraCuu.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs",
-              "RelativeToolTip": "GUI\\TraCuu.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAAAJwAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T08:31:09.512Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "readme.txt",
-              "DocumentMoniker": "C:\\Users\\dquan\\.nuget\\packages\\epplus\\7.3.2\\readme.txt",
-              "ToolTip": "C:\\Users\\dquan\\.nuget\\packages\\epplus\\7.3.2\\readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-09-30T17:09:25.219Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
@@ -240,40 +157,129 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormMain.Designer.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.Designer.cs",
-              "RelativeDocumentMoniker": "GUI\\FormMain.Designer.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.Designer.cs",
-              "RelativeToolTip": "GUI\\FormMain.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "CongDan.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\CongDan.cs",
+              "RelativeDocumentMoniker": "GUI\\CongDan.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\CongDan.cs",
+              "RelativeToolTip": "GUI\\CongDan.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAQwGgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T18:09:57.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-30T08:16:04.484Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "FormMain.cs [Design]",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs",
-              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs [Design]",
-              "RelativeToolTip": "GUI\\FormMain.cs [Design]",
+              "Title": "ThongTin.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThongTin.cs",
+              "RelativeDocumentMoniker": "GUI\\ThongTin.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThongTin.cs",
+              "RelativeToolTip": "GUI\\ThongTin.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAmwHEBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:19:38.427Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-30T16:53:21.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
+              "Title": "FormMain.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs",
+              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs",
+              "RelativeToolTip": "GUI\\FormMain.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T17:50:10.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TraCuu.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs",
+              "RelativeDocumentMoniker": "GUI\\TraCuu.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs",
+              "RelativeToolTip": "GUI\\TraCuu.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAswCEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T08:31:09.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaiKhoanDAL.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\TaiKhoanDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\TaiKhoanDAL.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\TaiKhoanDAL.cs",
+              "RelativeToolTip": "DAL\\TaiKhoanDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:45:33.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CongDanDAL.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\CongDanDAL.cs",
+              "RelativeDocumentMoniker": "DAL\\CongDanDAL.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\CongDanDAL.cs",
+              "RelativeToolTip": "DAL\\CongDanDAL.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:37:05.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TraCuu.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs",
+              "RelativeDocumentMoniker": "GUI\\TraCuu.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\TraCuu.cs [Design]",
+              "RelativeToolTip": "GUI\\TraCuu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T08:26:44.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ThongTin.cs [Design]",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThongTin.cs",
               "RelativeDocumentMoniker": "GUI\\ThongTin.cs",
               "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThongTin.cs [Design]",
               "RelativeToolTip": "GUI\\ThongTin.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T16:53:14.847Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-30T16:53:14.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CongDan.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\CongDan.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\CongDan.Designer.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\CongDan.Designer.cs",
+              "RelativeToolTip": "GUI\\CongDan.Designer.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAmwLMAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-01T07:40:57.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Neo4jConnectionManager.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\Neo4jConnectionManager.cs",
+              "RelativeDocumentMoniker": "DAL\\Neo4jConnectionManager.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\Neo4jConnectionManager.cs",
+              "RelativeToolTip": "DAL\\Neo4jConnectionManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T07:33:16.953Z"
             },
             {
               "$type": "Document",
@@ -283,7 +289,7 @@
               "RelativeDocumentMoniker": "GUI\\ThemCongDan.cs",
               "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThemCongDan.cs",
               "RelativeToolTip": "GUI\\ThemCongDan.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGYAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T13:12:01.377Z",
               "EditorCaption": ""
@@ -291,32 +297,61 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "CongDan.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\CongDan.cs",
-              "RelativeDocumentMoniker": "GUI\\CongDan.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\CongDan.cs",
-              "RelativeToolTip": "GUI\\CongDan.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAwwCEAAAAmAAAAAAAAAA==",
+              "Title": "ThemCongDan.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThemCongDan.cs",
+              "RelativeDocumentMoniker": "GUI\\ThemCongDan.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\ThemCongDan.cs [Design]",
+              "RelativeToolTip": "GUI\\ThemCongDan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T08:16:04.484Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T13:11:29.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DangNhap.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\DangNhap.cs",
+              "RelativeDocumentMoniker": "GUI\\DangNhap.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\DangNhap.cs [Design]",
+              "RelativeToolTip": "GUI\\DangNhap.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T10:58:02.427Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Neo4jConnectionManager.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\Neo4jConnectionManager.cs",
-              "RelativeDocumentMoniker": "DAL\\Neo4jConnectionManager.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\Neo4jConnectionManager.cs",
-              "RelativeToolTip": "DAL\\Neo4jConnectionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T07:33:16.953Z",
-              "EditorCaption": ""
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\dquan\\.nuget\\packages\\epplus\\7.3.2\\readme.txt",
+              "ToolTip": "C:\\Users\\dquan\\.nuget\\packages\\epplus\\7.3.2\\readme.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-09-30T17:09:25.219Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
+              "Title": "FormMain.Designer.cs",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.Designer.cs",
+              "RelativeDocumentMoniker": "GUI\\FormMain.Designer.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.Designer.cs",
+              "RelativeToolTip": "GUI\\FormMain.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T18:09:57.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormMain.cs [Design]",
+              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs",
+              "RelativeDocumentMoniker": "GUI\\FormMain.cs",
+              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\FormMain.cs [Design]",
+              "RelativeToolTip": "GUI\\FormMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T11:19:38.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "GUI.csproj",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\GUI.csproj",
               "RelativeDocumentMoniker": "GUI\\GUI.csproj",
@@ -324,12 +359,11 @@
               "RelativeToolTip": "GUI\\GUI.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-24T11:03:49.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:03:49.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "BLL.csproj",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\BLL\\BLL.csproj",
               "RelativeDocumentMoniker": "BLL\\BLL.csproj",
@@ -337,12 +371,11 @@
               "RelativeToolTip": "BLL\\BLL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-24T11:38:09.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:38:09.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "DangNhap.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\DangNhap.cs",
               "RelativeDocumentMoniker": "GUI\\DangNhap.cs",
@@ -350,12 +383,11 @@
               "RelativeToolTip": "GUI\\DangNhap.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAEwCsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:10:12.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:10:12.978Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "TaiKhoan.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\TaiKhoan.cs",
               "RelativeDocumentMoniker": "DAL\\TaiKhoan.cs",
@@ -363,12 +395,11 @@
               "RelativeToolTip": "DAL\\TaiKhoan.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAqwAcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T12:23:26.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T12:23:26.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "TaiKhoanBLL.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\BLL\\TaiKhoanBLL.cs",
               "RelativeDocumentMoniker": "BLL\\TaiKhoanBLL.cs",
@@ -376,25 +407,11 @@
               "RelativeToolTip": "BLL\\TaiKhoanBLL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:45:21.13Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:45:21.13Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "TaiKhoanDAL.cs",
-              "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\TaiKhoanDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\TaiKhoanDAL.cs",
-              "ToolTip": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\TaiKhoanDAL.cs",
-              "RelativeToolTip": "DAL\\TaiKhoanDAL.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:45:33.361Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "DangNhap.Designer.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\DangNhap.Designer.cs",
               "RelativeDocumentMoniker": "GUI\\DangNhap.Designer.cs",
@@ -402,12 +419,11 @@
               "RelativeToolTip": "GUI\\DangNhap.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:15:44.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:15:44.686Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "DAL.csproj",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
@@ -415,23 +431,21 @@
               "RelativeToolTip": "DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-24T11:35:42.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:35:42.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "ViewState": "AgIAAPIAAAAAAAAAAAAvwAkBAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-09-24T11:05:57.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:05:57.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\DAL\\Class1.cs",
               "RelativeDocumentMoniker": "DAL\\Class1.cs",
@@ -439,12 +453,11 @@
               "RelativeToolTip": "DAL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T11:26:22.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:26:22.248Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": ".filenesting.json",
               "DocumentMoniker": "D:\\Github\\Ph\u00E1t tri\u1EC3n PM\\DemoQLCD\\QLCD\\GUI\\.filenesting.json",
               "RelativeDocumentMoniker": "GUI\\.filenesting.json",
@@ -452,8 +465,7 @@
               "RelativeToolTip": "GUI\\.filenesting.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-24T11:15:34.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-24T11:15:34.381Z"
             }
           ]
         }
