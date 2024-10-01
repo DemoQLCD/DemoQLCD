@@ -21,7 +21,7 @@ namespace GUI
         {
             await LoadAllCitizens();
         }
-        private async Task LoadAllCitizens() // Đảm bảo phương thức là async và trả về Task
+        public async Task LoadAllCitizens() // Đảm bảo phương thức là async và trả về Task
         {
             var result = await _neo4jDriver.AsyncSession().RunAsync("MATCH (c:CongDan) RETURN c");
             DataTable dataTable = new DataTable();

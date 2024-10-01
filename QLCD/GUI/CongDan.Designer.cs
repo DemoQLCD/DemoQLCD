@@ -168,6 +168,7 @@
             btnCapNhatChiTietCongDan.TabIndex = 13;
             btnCapNhatChiTietCongDan.Text = "Cập nhật";
             btnCapNhatChiTietCongDan.UseVisualStyleBackColor = true;
+            btnCapNhatChiTietCongDan.Click += btnCapNhatChiTietCongDan_Click;
             // 
             // btnSuaChiTietCongDan
             // 
@@ -177,6 +178,7 @@
             btnSuaChiTietCongDan.TabIndex = 14;
             btnSuaChiTietCongDan.Text = "Sửa";
             btnSuaChiTietCongDan.UseVisualStyleBackColor = true;
+            btnSuaChiTietCongDan.Click += btnSuaChiTietCongDan_Click;
             // 
             // btnTroVeTruoc
             // 
@@ -195,6 +197,7 @@
             btnVeTrangChu.TabIndex = 16;
             btnVeTrangChu.Text = "Trang Chủ";
             btnVeTrangChu.UseVisualStyleBackColor = true;
+            btnVeTrangChu.Click += btnVeTrangChu_Click;
             // 
             // btnXoaChiTietCongDan
             // 
@@ -204,6 +207,7 @@
             btnXoaChiTietCongDan.TabIndex = 17;
             btnXoaChiTietCongDan.Text = "Xóa";
             btnXoaChiTietCongDan.UseVisualStyleBackColor = true;
+            btnXoaChiTietCongDan.Click += btnXoaChiTietCongDan_Click;
             // 
             // CongDan
             // 
