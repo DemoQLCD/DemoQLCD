@@ -228,7 +228,7 @@ namespace GUI
             DangNhap dangNhapForm = new DangNhap(); 
             dangNhapForm.Show(); 
 
-            this.Hide();
+            this.CLose();
         }
     }
 }
