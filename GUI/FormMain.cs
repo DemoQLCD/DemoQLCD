@@ -228,7 +228,11 @@ namespace GUI
             DangNhap dangNhapForm = new DangNhap(); 
             dangNhapForm.Show(); 
 
+<<<<<<< HEAD
             this.Close();
+=======
+            this.CLose();
+>>>>>>> 976f8de3d8b185968cf014a964f00b5d5c0c9d3e
         }
     }
 }
