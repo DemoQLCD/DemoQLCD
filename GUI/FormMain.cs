@@ -160,7 +160,7 @@ namespace GUI
         {
 
             // Tạo một thể hiện mới của Form TraCuu và truyền MaNV
-            TraCuu formTraCuu = new TraCuu
+            TraCuu formTraCuu = new TraCuu(this)
             {
                 MaNV = this.MaNV // Chuyển Mã NV từ FormMain sang TraCuu
             };
@@ -177,7 +177,7 @@ namespace GUI
         private void button2_Click(object sender, EventArgs e)
         {
             // Tạo một thể hiện mới của form ThongTin và truyền MaNV
-            ThongTin formThongTin = new ThongTin
+            ThongTin formThongTin = new ThongTin(this)
             {
                 MaNV = this.MaNV // Chuyển Mã NV từ FormMain sang ThongTin
             };
@@ -191,7 +191,7 @@ namespace GUI
 
         private void button4_Click(object sender, EventArgs e)
         {
-            DangKy formDangKy = new DangKy
+            DangKy formDangKy = new DangKy(this)
             {
                 MaNV = this.MaNV // Chuyển Mã NV từ FormMain sang DangKy
             };
@@ -228,7 +228,7 @@ namespace GUI
             DangNhap dangNhapForm = new DangNhap(); 
             dangNhapForm.Show(); 
 
-            this.Hide();
+            this.Close();
         }
     }
 }

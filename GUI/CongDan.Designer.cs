@@ -43,7 +43,6 @@
             txtThuongTru = new TextBox();
             btnCapNhatChiTietCongDan = new Button();
             btnSuaChiTietCongDan = new Button();
-            btnTroVeTruoc = new Button();
             btnVeTrangChu = new Button();
             btnXoaChiTietCongDan = new Button();
             SuspendLayout();
@@ -53,118 +52,132 @@
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Red;
-            label1.Location = new Point(446, 69);
+            label1.Location = new Point(558, 86);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(197, 31);
+            label1.Size = new Size(241, 38);
             label1.TabIndex = 0;
             label1.Text = "Chi tiết công dân";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(79, 213);
+            label2.Location = new Point(99, 266);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(39, 20);
+            label2.Size = new Size(47, 25);
             label2.TabIndex = 1;
             label2.Text = "Tên :";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(79, 175);
+            label3.Location = new Point(99, 219);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(47, 20);
+            label3.Size = new Size(58, 25);
             label3.TabIndex = 2;
             label3.Text = "CCCD";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(76, 256);
+            label4.Location = new Point(95, 320);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(72, 20);
+            label4.Size = new Size(87, 25);
             label4.TabIndex = 3;
             label4.Text = "Giới tính :";
             // 
             // DateNgaySinh
             // 
-            DateNgaySinh.Location = new Point(528, 168);
+            DateNgaySinh.Location = new Point(660, 210);
+            DateNgaySinh.Margin = new Padding(4, 4, 4, 4);
             DateNgaySinh.Name = "DateNgaySinh";
-            DateNgaySinh.Size = new Size(303, 27);
+            DateNgaySinh.Size = new Size(378, 31);
             DateNgaySinh.TabIndex = 4;
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(418, 170);
+            label5.Location = new Point(522, 212);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(83, 20);
+            label5.Size = new Size(102, 25);
             label5.TabIndex = 5;
             label5.Text = "Ngày Sinh :";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(419, 213);
+            label6.Location = new Point(524, 266);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(82, 20);
+            label6.Size = new Size(102, 25);
             label6.TabIndex = 6;
             label6.Text = "Quê Quán :";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(418, 256);
+            label7.Location = new Point(522, 320);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(143, 20);
+            label7.Size = new Size(172, 25);
             label7.TabIndex = 7;
             label7.Text = "Địa Chỉ Thường Trú :";
             // 
             // txtCCCD
             // 
             txtCCCD.BorderStyle = BorderStyle.FixedSingle;
-            txtCCCD.Location = new Point(179, 175);
+            txtCCCD.Location = new Point(224, 219);
+            txtCCCD.Margin = new Padding(4, 4, 4, 4);
             txtCCCD.Name = "txtCCCD";
-            txtCCCD.Size = new Size(195, 27);
+            txtCCCD.Size = new Size(243, 31);
             txtCCCD.TabIndex = 8;
             // 
             // txtTen
             // 
             txtTen.BorderStyle = BorderStyle.FixedSingle;
-            txtTen.Location = new Point(179, 213);
+            txtTen.Location = new Point(224, 266);
+            txtTen.Margin = new Padding(4, 4, 4, 4);
             txtTen.Name = "txtTen";
-            txtTen.Size = new Size(195, 27);
+            txtTen.Size = new Size(243, 31);
             txtTen.TabIndex = 9;
             // 
             // txtGioiTinh
             // 
             txtGioiTinh.BorderStyle = BorderStyle.FixedSingle;
-            txtGioiTinh.Location = new Point(179, 256);
+            txtGioiTinh.Location = new Point(224, 320);
+            txtGioiTinh.Margin = new Padding(4, 4, 4, 4);
             txtGioiTinh.Name = "txtGioiTinh";
-            txtGioiTinh.Size = new Size(195, 27);
+            txtGioiTinh.Size = new Size(243, 31);
             txtGioiTinh.TabIndex = 10;
             // 
             // txtQueQuan
             // 
             txtQueQuan.BorderStyle = BorderStyle.FixedSingle;
-            txtQueQuan.Location = new Point(528, 201);
+            txtQueQuan.Location = new Point(660, 251);
+            txtQueQuan.Margin = new Padding(4, 4, 4, 4);
             txtQueQuan.Name = "txtQueQuan";
-            txtQueQuan.Size = new Size(303, 27);
+            txtQueQuan.Size = new Size(378, 31);
             txtQueQuan.TabIndex = 11;
             // 
             // txtThuongTru
             // 
             txtThuongTru.BorderStyle = BorderStyle.FixedSingle;
-            txtThuongTru.Location = new Point(567, 249);
+            txtThuongTru.Location = new Point(709, 311);
+            txtThuongTru.Margin = new Padding(4, 4, 4, 4);
             txtThuongTru.Name = "txtThuongTru";
-            txtThuongTru.Size = new Size(264, 27);
+            txtThuongTru.Size = new Size(330, 31);
             txtThuongTru.TabIndex = 12;
             // 
             // btnCapNhatChiTietCongDan
             // 
-            btnCapNhatChiTietCongDan.Location = new Point(528, 337);
+            btnCapNhatChiTietCongDan.Location = new Point(660, 421);
+            btnCapNhatChiTietCongDan.Margin = new Padding(4, 4, 4, 4);
             btnCapNhatChiTietCongDan.Name = "btnCapNhatChiTietCongDan";
-            btnCapNhatChiTietCongDan.Size = new Size(101, 58);
+            btnCapNhatChiTietCongDan.Size = new Size(126, 72);
             btnCapNhatChiTietCongDan.TabIndex = 13;
             btnCapNhatChiTietCongDan.Text = "Cập nhật";
             btnCapNhatChiTietCongDan.UseVisualStyleBackColor = true;
@@ -172,38 +185,32 @@
             // 
             // btnSuaChiTietCongDan
             // 
-            btnSuaChiTietCongDan.Location = new Point(228, 335);
+            btnSuaChiTietCongDan.Location = new Point(285, 419);
+            btnSuaChiTietCongDan.Margin = new Padding(4, 4, 4, 4);
             btnSuaChiTietCongDan.Name = "btnSuaChiTietCongDan";
-            btnSuaChiTietCongDan.Size = new Size(104, 58);
+            btnSuaChiTietCongDan.Size = new Size(130, 72);
             btnSuaChiTietCongDan.TabIndex = 14;
             btnSuaChiTietCongDan.Text = "Sửa";
             btnSuaChiTietCongDan.UseVisualStyleBackColor = true;
             btnSuaChiTietCongDan.Click += btnSuaChiTietCongDan_Click;
             // 
-            // btnTroVeTruoc
-            // 
-            btnTroVeTruoc.Location = new Point(908, 497);
-            btnTroVeTruoc.Name = "btnTroVeTruoc";
-            btnTroVeTruoc.Size = new Size(106, 37);
-            btnTroVeTruoc.TabIndex = 15;
-            btnTroVeTruoc.Text = "Trở về";
-            btnTroVeTruoc.UseVisualStyleBackColor = true;
-            // 
             // btnVeTrangChu
             // 
-            btnVeTrangChu.Location = new Point(783, 497);
+            btnVeTrangChu.Location = new Point(1136, 616);
+            btnVeTrangChu.Margin = new Padding(4, 4, 4, 4);
             btnVeTrangChu.Name = "btnVeTrangChu";
-            btnVeTrangChu.Size = new Size(106, 37);
+            btnVeTrangChu.Size = new Size(132, 46);
             btnVeTrangChu.TabIndex = 16;
-            btnVeTrangChu.Text = "Trang Chủ";
+            btnVeTrangChu.Text = "Trở về";
             btnVeTrangChu.UseVisualStyleBackColor = true;
             btnVeTrangChu.Click += btnVeTrangChu_Click;
             // 
             // btnXoaChiTietCongDan
             // 
-            btnXoaChiTietCongDan.Location = new Point(377, 339);
+            btnXoaChiTietCongDan.Location = new Point(471, 424);
+            btnXoaChiTietCongDan.Margin = new Padding(4, 4, 4, 4);
             btnXoaChiTietCongDan.Name = "btnXoaChiTietCongDan";
-            btnXoaChiTietCongDan.Size = new Size(113, 54);
+            btnXoaChiTietCongDan.Size = new Size(141, 68);
             btnXoaChiTietCongDan.TabIndex = 17;
             btnXoaChiTietCongDan.Text = "Xóa";
             btnXoaChiTietCongDan.UseVisualStyleBackColor = true;
@@ -211,13 +218,12 @@
             // 
             // CongDan
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.bg4;
-            ClientSize = new Size(1035, 550);
+            ClientSize = new Size(1294, 688);
             Controls.Add(btnXoaChiTietCongDan);
             Controls.Add(btnVeTrangChu);
-            Controls.Add(btnTroVeTruoc);
             Controls.Add(btnSuaChiTietCongDan);
             Controls.Add(btnCapNhatChiTietCongDan);
             Controls.Add(txtThuongTru);
@@ -234,6 +240,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
+            Margin = new Padding(4, 4, 4, 4);
             Name = "CongDan";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Chi tiết Công dân";
@@ -259,7 +266,6 @@
         private TextBox txtThuongTru;
         private Button btnCapNhatChiTietCongDan;
         private Button btnSuaChiTietCongDan;
-        private Button btnTroVeTruoc;
         private Button btnVeTrangChu;
         private Button btnXoaChiTietCongDan;
     }
