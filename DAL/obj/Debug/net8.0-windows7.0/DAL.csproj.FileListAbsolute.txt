@@ -24,3 +24,16 @@ D:\LuuTruTapTin\DemoQLCD-main\QLCD\DAL\obj\Debug\net8.0-windows7.0\refint\DAL.dl
 D:\LuuTruTapTin\DemoQLCD-main\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.pdb
 D:\LuuTruTapTin\DemoQLCD-main\QLCD\DAL\obj\Debug\net8.0-windows7.0\ref\DAL.dll
 D:\LuuTruTapTin\DemoQLCD-main\QLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.sourcelink.json
+D:\Github\Phát triển PM\DemoQLCD\DAL\bin\Debug\net8.0-windows7.0\DAL.deps.json
+D:\Github\Phát triển PM\DemoQLCD\DAL\bin\Debug\net8.0-windows7.0\DAL.dll
+D:\Github\Phát triển PM\DemoQLCD\DAL\bin\Debug\net8.0-windows7.0\DAL.pdb
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.csproj.AssemblyReference.cache
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.d-bfalse.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.AssemblyInfoInputs.cache
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.AssemblyInfo.cs
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.csproj.CoreCompileInputs.cache
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.sourcelink.json
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.dll
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\refint\DAL.dll
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\DAL.pdb
+D:\Github\Phát triển PM\DemoQLCD\DAL\obj\Debug\net8.0-windows7.0\ref\DAL.dll

@@ -6,12 +6,11 @@ namespace DAL
     {
         private static IDriver _driver;
 
-        // Phương thức này chỉ tạo kết nối một lần (singleton pattern)
         public static IDriver GetDriver()
         {
             if (_driver == null)
             {
-                _driver = GraphDatabase.Driver("neo4j://localhost:7687", AuthTokens.Basic("neo4j", "12345678"));
+                _driver = GraphDatabase.Driver("neo4j://localhost:7687", AuthTokens.Basic("neo4j", "123456"));
             }
             return _driver;
         }

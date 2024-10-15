@@ -88,5 +88,10 @@ namespace GUI
             txtThang.Clear();
             txtNam.Clear();
         }
+
+        private void CongDanTu_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

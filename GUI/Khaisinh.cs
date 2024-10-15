@@ -123,5 +123,10 @@ namespace GUI
             txtQuocTichMe.Clear();
             txtNguoiDangKy.Clear();
         }
+
+        private void Khaisinh_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

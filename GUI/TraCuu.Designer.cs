@@ -44,26 +44,27 @@
             // txtTimKiem
             // 
             txtTimKiem.BorderStyle = BorderStyle.FixedSingle;
-            txtTimKiem.Location = new Point(237, 65);
+            txtTimKiem.Location = new Point(267, 65);
             txtTimKiem.Name = "txtTimKiem";
-            txtTimKiem.Size = new Size(355, 27);
+            txtTimKiem.Size = new Size(399, 27);
             txtTimKiem.TabIndex = 1;
             // 
             // btnTimkiem
             // 
-            btnTimkiem.Location = new Point(610, 61);
+            btnTimkiem.BackColor = Color.Red;
+            btnTimkiem.Location = new Point(686, 61);
             btnTimkiem.Name = "btnTimkiem";
-            btnTimkiem.Size = new Size(137, 33);
+            btnTimkiem.Size = new Size(154, 33);
             btnTimkiem.TabIndex = 2;
             btnTimkiem.Text = "Tìm kiếm";
-            btnTimkiem.UseVisualStyleBackColor = true;
+            btnTimkiem.UseVisualStyleBackColor = false;
             btnTimkiem.Click += btnTimkiem_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(384, 13);
+            label1.Location = new Point(432, 13);
             label1.Name = "label1";
             label1.Size = new Size(289, 28);
             label1.TabIndex = 3;
@@ -73,7 +74,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 7.8F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(239, 97);
+            label2.Location = new Point(269, 97);
             label2.Name = "label2";
             label2.Size = new Size(128, 17);
             label2.TabIndex = 4;
@@ -82,68 +83,76 @@
             // dataCD
             // 
             dataCD.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataCD.Location = new Point(12, 153);
+            dataCD.Location = new Point(14, 153);
             dataCD.Name = "dataCD";
             dataCD.RowHeadersWidth = 51;
-            dataCD.Size = new Size(839, 391);
+            dataCD.Size = new Size(944, 391);
             dataCD.TabIndex = 5;
             // 
             // btnQuayLai
             // 
-            btnQuayLai.Location = new Point(889, 12);
+            btnQuayLai.BackColor = Color.FromArgb(0, 192, 0);
+            btnQuayLai.Location = new Point(1000, 12);
             btnQuayLai.Name = "btnQuayLai";
-            btnQuayLai.Size = new Size(110, 36);
+            btnQuayLai.Size = new Size(124, 36);
             btnQuayLai.TabIndex = 6;
             btnQuayLai.Text = "Quay lại";
-            btnQuayLai.UseVisualStyleBackColor = true;
+            btnQuayLai.UseVisualStyleBackColor = false;
             btnQuayLai.Click += btnQuayLai_Click;
             // 
             // LtnLammoi
             // 
-            LtnLammoi.Location = new Point(872, 325);
+            LtnLammoi.BackColor = Color.Yellow;
+            LtnLammoi.Location = new Point(981, 325);
             LtnLammoi.Name = "LtnLammoi";
-            LtnLammoi.Size = new Size(102, 58);
+            LtnLammoi.Size = new Size(115, 58);
             LtnLammoi.TabIndex = 7;
             LtnLammoi.Text = "Làm mới";
-            LtnLammoi.UseVisualStyleBackColor = true;
+            LtnLammoi.UseVisualStyleBackColor = false;
             LtnLammoi.Click += LtnLammoi_Click;
             // 
             // btnXemChiTiet
             // 
-            btnXemChiTiet.Location = new Point(872, 153);
+            btnXemChiTiet.BackColor = Color.Green;
+            btnXemChiTiet.ForeColor = SystemColors.ButtonFace;
+            btnXemChiTiet.Location = new Point(981, 153);
             btnXemChiTiet.Name = "btnXemChiTiet";
-            btnXemChiTiet.Size = new Size(102, 56);
+            btnXemChiTiet.Size = new Size(115, 56);
             btnXemChiTiet.TabIndex = 9;
             btnXemChiTiet.Text = "Xem thông tin";
-            btnXemChiTiet.UseVisualStyleBackColor = true;
+            btnXemChiTiet.UseVisualStyleBackColor = false;
             btnXemChiTiet.Click += btnXemChiTiet_Click;
             // 
             // btnThemCongDan
             // 
-            btnThemCongDan.Location = new Point(872, 215);
+            btnThemCongDan.BackColor = Color.Blue;
+            btnThemCongDan.ForeColor = SystemColors.ButtonHighlight;
+            btnThemCongDan.Location = new Point(981, 215);
             btnThemCongDan.Name = "btnThemCongDan";
-            btnThemCongDan.Size = new Size(102, 49);
+            btnThemCongDan.Size = new Size(115, 49);
             btnThemCongDan.TabIndex = 10;
             btnThemCongDan.Text = "Thêm";
-            btnThemCongDan.UseVisualStyleBackColor = true;
+            btnThemCongDan.UseVisualStyleBackColor = false;
             btnThemCongDan.Click += btnThemCongDan_Click;
             // 
             // btnXoaCongDan
             // 
-            btnXoaCongDan.Location = new Point(872, 270);
+            btnXoaCongDan.BackColor = Color.FromArgb(192, 0, 0);
+            btnXoaCongDan.ForeColor = SystemColors.ButtonFace;
+            btnXoaCongDan.Location = new Point(981, 270);
             btnXoaCongDan.Name = "btnXoaCongDan";
-            btnXoaCongDan.Size = new Size(102, 49);
+            btnXoaCongDan.Size = new Size(115, 49);
             btnXoaCongDan.TabIndex = 11;
             btnXoaCongDan.Text = "Xóa";
-            btnXoaCongDan.UseVisualStyleBackColor = true;
+            btnXoaCongDan.UseVisualStyleBackColor = false;
             btnXoaCongDan.Click += btnXoaCongDan_Click;
             // 
             // TraCuu
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.bg3;
-            ClientSize = new Size(1011, 582);
+            ClientSize = new Size(1137, 582);
             Controls.Add(btnXoaCongDan);
             Controls.Add(btnThemCongDan);
             Controls.Add(btnXemChiTiet);
@@ -154,6 +163,7 @@
             Controls.Add(label1);
             Controls.Add(btnTimkiem);
             Controls.Add(txtTimKiem);
+            Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             FormBorderStyle = FormBorderStyle.FixedDialog;
             Name = "TraCuu";
             StartPosition = FormStartPosition.CenterScreen;

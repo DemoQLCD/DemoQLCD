@@ -56,6 +56,7 @@
             label1.Size = new Size(215, 23);
             label1.TabIndex = 0;
             label1.Text = "Thêm công dân vào CSDL";
+            label1.UseWaitCursor = true;
             // 
             // label2
             // 
@@ -65,6 +66,7 @@
             label2.Size = new Size(47, 20);
             label2.TabIndex = 1;
             label2.Text = "CCCD";
+            label2.UseWaitCursor = true;
             // 
             // label3
             // 
@@ -74,6 +76,7 @@
             label3.Size = new Size(75, 20);
             label3.TabIndex = 2;
             label3.Text = "Họ và Tên";
+            label3.UseWaitCursor = true;
             // 
             // label4
             // 
@@ -83,6 +86,7 @@
             label4.Size = new Size(68, 20);
             label4.TabIndex = 3;
             label4.Text = "Giới Tính";
+            label4.UseWaitCursor = true;
             // 
             // label5
             // 
@@ -92,6 +96,7 @@
             label5.Size = new Size(74, 20);
             label5.TabIndex = 4;
             label5.Text = "Ngày sinh";
+            label5.UseWaitCursor = true;
             // 
             // label6
             // 
@@ -101,6 +106,7 @@
             label6.Size = new Size(75, 20);
             label6.TabIndex = 5;
             label6.Text = "Quê Quán";
+            label6.UseWaitCursor = true;
             // 
             // label7
             // 
@@ -110,6 +116,7 @@
             label7.Size = new Size(82, 20);
             label7.TabIndex = 6;
             label7.Text = "Thường trú";
+            label7.UseWaitCursor = true;
             // 
             // txtCCCD
             // 
@@ -118,6 +125,7 @@
             txtCCCD.Name = "txtCCCD";
             txtCCCD.Size = new Size(125, 27);
             txtCCCD.TabIndex = 7;
+            txtCCCD.UseWaitCursor = true;
             // 
             // txtHoTen
             // 
@@ -126,6 +134,7 @@
             txtHoTen.Name = "txtHoTen";
             txtHoTen.Size = new Size(125, 27);
             txtHoTen.TabIndex = 8;
+            txtHoTen.UseWaitCursor = true;
             // 
             // txtQueQuan
             // 
@@ -134,6 +143,7 @@
             txtQueQuan.Name = "txtQueQuan";
             txtQueQuan.Size = new Size(188, 27);
             txtQueQuan.TabIndex = 10;
+            txtQueQuan.UseWaitCursor = true;
             // 
             // txtThuongTru
             // 
@@ -142,6 +152,7 @@
             txtThuongTru.Name = "txtThuongTru";
             txtThuongTru.Size = new Size(188, 27);
             txtThuongTru.TabIndex = 11;
+            txtThuongTru.UseWaitCursor = true;
             // 
             // dtpNgaySinh
             // 
@@ -149,6 +160,7 @@
             dtpNgaySinh.Name = "dtpNgaySinh";
             dtpNgaySinh.Size = new Size(250, 27);
             dtpNgaySinh.TabIndex = 12;
+            dtpNgaySinh.UseWaitCursor = true;
             // 
             // comboGioiTinh
             // 
@@ -158,41 +170,52 @@
             comboGioiTinh.Name = "comboGioiTinh";
             comboGioiTinh.Size = new Size(151, 28);
             comboGioiTinh.TabIndex = 13;
+            comboGioiTinh.UseWaitCursor = true;
             // 
             // btnThem
             // 
+            btnThem.BackColor = Color.FromArgb(0, 192, 0);
+            btnThem.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnThem.Location = new Point(257, 346);
             btnThem.Name = "btnThem";
             btnThem.Size = new Size(157, 35);
             btnThem.TabIndex = 14;
             btnThem.Text = "Thêm ";
-            btnThem.UseVisualStyleBackColor = true;
+            btnThem.UseVisualStyleBackColor = false;
+            btnThem.UseWaitCursor = true;
             btnThem.Click += btnThem_Click;
             // 
             // button2
             // 
+            button2.BackColor = Color.Red;
+            button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.Location = new Point(431, 346);
             button2.Name = "button2";
             button2.Size = new Size(157, 35);
             button2.TabIndex = 15;
             button2.Text = "Làm mới";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
+            button2.UseWaitCursor = true;
             button2.Click += button2_Click;
             // 
             // btn_back
             // 
+            btn_back.BackColor = Color.FromArgb(255, 128, 0);
+            btn_back.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btn_back.Location = new Point(710, 421);
             btn_back.Name = "btn_back";
             btn_back.Size = new Size(157, 35);
             btn_back.TabIndex = 16;
             btn_back.Text = "Trở Về";
-            btn_back.UseVisualStyleBackColor = true;
+            btn_back.UseVisualStyleBackColor = false;
+            btn_back.UseWaitCursor = true;
             btn_back.Click += btn_back_Click;
             // 
             // ThemCongDan
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(255, 255, 192);
             BackgroundImage = Properties.Resources.bg5;
             ClientSize = new Size(879, 468);
             Controls.Add(btn_back);
@@ -215,6 +238,7 @@
             Name = "ThemCongDan";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Thêm Công dân";
+            UseWaitCursor = true;
             ResumeLayout(false);
             PerformLayout();
         }

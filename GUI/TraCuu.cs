@@ -36,23 +36,82 @@ namespace GUI
             while (await result.FetchAsync())
             {
                 var citizen = result.Current["c"].As<INode>();
+
+                // Xử lý thuộc tính 'thuongtru' nếu thiếu
+                string thuongtru;
+                if (!citizen.Properties.TryGetValue("thuongtru", out var thuongtruValue))
+                {
+                    thuongtru = ""; // Gán giá trị rỗng nếu thuộc tính 'thuongtru' không có
+                }
+                else
+                {
+                    thuongtru = thuongtruValue.As<string>();
+                }
+
                 dataTable.Rows.Add(
                     citizen.Properties["cccd"].As<string>(),
                     citizen.Properties["hoten"].As<string>(),
                     citizen.Properties["gioitinh"].As<string>(),
                     citizen.Properties["ngaysinh"].As<DateTime>().ToString("dd/MM/yyyy"),
                     citizen.Properties["quequan"].As<string>(),
-                    citizen.Properties["thuongtru"].As<string>()
+                    thuongtru // Sử dụng biến 'thuongtru' đã kiểm tra
                 );
             }
 
             dataCD.DataSource = dataTable; // Cập nhật tên DataGridView ở đây
         }
+        //private async Task SearchCitizen(string keyword) // Đảm bảo phương thức là async và trả về Task
+        //{
+        //    var query = "MATCH (c:CongDan) WHERE c.hoten CONTAINS $keyword OR c.cccd = $cccd RETURN c";
+        //    var parameters = new { keyword = keyword, cccd = keyword };
 
-        private async Task SearchCitizen(string keyword) // Đảm bảo phương thức là async và trả về Task
+        //    var result = await _neo4jDriver.AsyncSession().RunAsync(query, parameters);
+        //    DataTable dataTable = new DataTable();
+
+        //    dataTable.Columns.Add("CCCD");
+        //    dataTable.Columns.Add("Họ và tên");
+        //    dataTable.Columns.Add("Giới tính");
+        //    dataTable.Columns.Add("Ngày sinh");
+        //    dataTable.Columns.Add("Quê quán");
+        //    dataTable.Columns.Add("Thường trú");
+
+        //    while (await result.FetchAsync())
+        //    {
+        //        var citizen = result.Current["c"].As<INode>();
+        //        dataTable.Rows.Add(
+        //            citizen.Properties["cccd"].As<string>(),
+        //            citizen.Properties["hoten"].As<string>(),
+        //            citizen.Properties["gioitinh"].As<string>(),
+        //            citizen.Properties["ngaysinh"].As<DateTime>().ToString("dd/MM/yyyy"),
+        //            citizen.Properties["quequan"].As<string>(),
+        //            citizen.Properties["thuongtru"].As<string>()
+        //        );
+        //    }
+
+        //    dataCD.DataSource = dataTable; // Cập nhật tên DataGridView ở đây
+        //    dataCD.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+        //    // Kiểm tra nếu không có dữ liệu
+        //    if (dataTable.Rows.Count == 0)
+        //    {
+        //        MessageBox.Show("Không tìm thấy công dân nào với từ khóa đã nhập.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //    }
+        //}
+        private async Task SearchCitizen(string keyword)
         {
-            var query = "MATCH (c:CongDan) WHERE c.hoten CONTAINS $keyword OR c.cccd = $cccd RETURN c";
-            var parameters = new { keyword = keyword, cccd = keyword };
+            // Kiểm tra nếu từ khóa không rỗng
+            if (string.IsNullOrEmpty(keyword))
+            {
+                MessageBox.Show("Vui lòng nhập từ khóa tìm kiếm.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Chuyển đổi thành chữ thường để tìm kiếm không phân biệt chữ hoa chữ thường
+            string keywordLower = keyword.ToLower();
+
+            // Câu truy vấn điều chỉnh
+            var query = "MATCH (c:CongDan) WHERE toLower(c.hoten) CONTAINS $keyword OR c.cccd = $cccd RETURN c";
+            var parameters = new { keyword = keywordLower, cccd = keyword };
 
             var result = await _neo4jDriver.AsyncSession().RunAsync(query, parameters);
             DataTable dataTable = new DataTable();
@@ -67,13 +126,15 @@ namespace GUI
             while (await result.FetchAsync())
             {
                 var citizen = result.Current["c"].As<INode>();
+                string thuongtru = citizen.Properties.TryGetValue("thuongtru", out var thuongtruValue) ? thuongtruValue.As<string>() : "";
+
                 dataTable.Rows.Add(
                     citizen.Properties["cccd"].As<string>(),
                     citizen.Properties["hoten"].As<string>(),
                     citizen.Properties["gioitinh"].As<string>(),
                     citizen.Properties["ngaysinh"].As<DateTime>().ToString("dd/MM/yyyy"),
                     citizen.Properties["quequan"].As<string>(),
-                    citizen.Properties["thuongtru"].As<string>()
+                    thuongtru
                 );
             }
 
@@ -174,6 +235,7 @@ namespace GUI
 
         private async void btnXoaCongDan_Click(object sender, EventArgs e)
         {
+
             // Kiểm tra xem có hàng nào được chọn không
             if (dataCD.SelectedRows.Count > 0)
             {
@@ -191,8 +253,10 @@ namespace GUI
                 {
                     try
                     {
-                        // Xóa công dân trong cơ sở dữ liệu Neo4j
-                        var deleteQuery = "MATCH (c:CongDan {cccd: $cccd}) DELETE c";
+                        // Xóa công dân cùng với mọi quan hệ liên quan
+                        var deleteQuery = @"
+                    MATCH (c:CongDan {cccd: $cccd})
+                    DETACH DELETE c";
                         var parameters = new { cccd = cccd };
 
                         using (var session = _neo4jDriver.AsyncSession())
@@ -218,7 +282,6 @@ namespace GUI
                 // Nếu không có hàng nào được chọn, hiển thị thông báo
                 MessageBox.Show("Vui lòng chọn một công dân để xóa.", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-
         }
     }
 }

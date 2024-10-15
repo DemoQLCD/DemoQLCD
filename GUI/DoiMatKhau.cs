@@ -51,5 +51,10 @@ namespace GUI
         {
             this.Close();
         }
+
+        private void DoiMatKhau_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

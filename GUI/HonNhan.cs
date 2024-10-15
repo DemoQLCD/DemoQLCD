@@ -93,5 +93,10 @@ namespace GUI
             dtpNgayDangKy.Value = DateTime.Now;
             txtNoiDangKy.Clear();
         }
+
+        private void HonNhan_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
