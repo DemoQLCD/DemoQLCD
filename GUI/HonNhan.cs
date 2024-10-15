@@ -61,47 +61,6 @@ namespace GUI
                     MessageBox.Show("CCCD người vợ không tồn tại.");
                     return;
                 }
-
-<<<<<<< HEAD
-                // Nếu cả hai tồn tại, thực hiện tạo quan hệ hôn nhân
-                var queryCreate = @"
-            MATCH (c1:CongDan {cccd: $cccdChong}), (c2:CongDan {cccd: $cccdVo})
-            MERGE (c1)-[:KET_HON]->(h:HonNhan {cccdNguoiChong: $cccdChong, cccdNguoiVo: $cccdVo, NgayDangKy: $ngayDangKy, NoiDangKy: $noiDangKy})
-            RETURN 'Đăng ký hôn nhân thành công' AS message";
-
-                var resultCreate = await session.RunAsync(queryCreate, new
-                {
-                    cccdChong = cccdChong,
-                    cccdVo = cccdVo,
-                    ngayDangKy = ngayDangKy,
-                    noiDangKy = noiDangKy
-                });
-
-                var recordCreate = await resultCreate.SingleAsync();
-                MessageBox.Show(recordCreate["message"].As<string>());
-
-                // Cập nhật trạng thái hôn nhân cho người chồng
-                var queryUpdateChong = @"
-            MATCH (c1:CongDan {cccd: $cccdChong})
-            SET c1.honnhan = 'Đã kết hôn'
-            RETURN 'Cập nhật trạng thái hôn nhân người chồng thành công' AS messageChong";
-
-                // Cập nhật trạng thái hôn nhân cho người vợ
-                var queryUpdateVo = @"
-            MATCH (c2:CongDan {cccd: $cccdVo})
-            SET c2.honnhan = 'Đã kết hôn'
-            RETURN 'Cập nhật trạng thái hôn nhân người vợ thành công' AS messageVo";
-
-                // Chạy truy vấn cập nhật cho người chồng
-                var resultUpdateChong = await session.RunAsync(queryUpdateChong, new { cccdChong });
-                var recordUpdateChong = await resultUpdateChong.SingleAsync();
-                MessageBox.Show(recordUpdateChong["messageChong"].As<string>()); // Thông báo cho người chồng
-
-                // Chạy truy vấn cập nhật cho người vợ
-                var resultUpdateVo = await session.RunAsync(queryUpdateVo, new { cccdVo });
-                var recordUpdateVo = await resultUpdateVo.SingleAsync();
-                MessageBox.Show(recordUpdateVo["messageVo"].As<string>()); // Thông báo cho người vợ
-=======
                     // Nếu cả hai tồn tại, thực hiện tạo quan hệ hôn nhân
                     var queryCreate = @"
                 MATCH (c1:CongDan {cccd: $cccdChong}), (c2:CongDan {cccd: $cccdVo})
@@ -140,7 +99,6 @@ namespace GUI
                     var resultUpdateVo = await session.RunAsync(queryUpdateVo, new { cccdVo });
                     var recordUpdateVo = await resultUpdateVo.SingleAsync();
                     MessageBox.Show(recordUpdateVo["messageVo"].As<string>()); // Thông báo cho người vợ
->>>>>>> 976f8de3d8b185968cf014a964f00b5d5c0c9d3e
             }
             catch (Exception ex)
             {
