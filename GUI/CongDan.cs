@@ -142,18 +142,12 @@ namespace GUI
             }
 
         }
-       
+
         private void btnVeTrangChu_Click(object sender, EventArgs e)
         {
-
-            // Tạo instance của FormMain và truyền vào thông tin nếu cần
-            FormMain formMain = new FormMain(MaNV); // Nếu MaNV không cần truyền, có thể bỏ qua tham số
-
-            // Hiển thị form chính (FormMain)
-            formMain.Show();
-
-            // Đóng form hiện tại (Form CongDan)
             this.Close();
         }
+
+
     }
 }

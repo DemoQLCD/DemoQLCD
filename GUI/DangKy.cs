@@ -15,21 +15,18 @@ namespace GUI
     public partial class DangKy : Form
     {
         private IDriver _neo4jDriver;
+        private FormMain _formMain;
         public string MaNV { get; set; }
-        public DangKy()
+        public DangKy(FormMain formMain)
         {
             InitializeComponent();
+            _formMain = formMain;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormMain formMain = new FormMain(MaNV); // Đảm bảo MaNV được truyền vào
-
-            // Hiện form chính
-            formMain.Show();
-
-            // Đóng form TraCuu
             this.Close();
+            _formMain.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

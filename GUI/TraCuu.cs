@@ -10,11 +10,13 @@ namespace GUI
     public partial class TraCuu : Form
     {
         private IDriver _neo4jDriver;
+        private FormMain _formMain;
         public string MaNV { get; set; }
-        public TraCuu()
+        public TraCuu(FormMain formMain)
         {
             InitializeComponent();
             _neo4jDriver = Neo4jConnectionManager.GetDriver();
+            _formMain = formMain;
         }
 
         private async void TraCuu_Load(object sender, EventArgs e)
@@ -164,13 +166,8 @@ namespace GUI
 
         private void btnQuayLai_Click(object sender, EventArgs e)
         {
-            FormMain formMain = new FormMain(MaNV); // Đảm bảo MaNV được truyền vào
-
-            // Hiện form chính
-            formMain.Show();
-
-            // Đóng form TraCuu
-            this.Close();
+            this.Hide();
+            _formMain.Show();
         }
 
         private async void LtnLammoi_Click(object sender, EventArgs e)
@@ -209,7 +206,6 @@ namespace GUI
                     QueQuan = quequan,
                     ThuongTru = thuongtru
                 };
-
                 formCongDan.ShowDialog(); // Hiện form xem chi tiết
             }
             else

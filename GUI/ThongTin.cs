@@ -12,12 +12,14 @@ namespace GUI
     public partial class ThongTin : Form
     {
         private IDriver _neo4jDriver;
+        private FormMain _formMain;
         public string MaNV { get; set; }
-        public ThongTin()
+        public ThongTin(FormMain formMain)
         {
             InitializeComponent();
             _neo4jDriver = Neo4jConnectionManager.GetDriver();
             this.Load += TraCuu_Load;
+            _formMain = formMain;
 
         }
 
@@ -311,20 +313,19 @@ namespace GUI
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
-
-            FormMain formMain = new FormMain(MaNV); // Đảm bảo MaNV được truyền vào
-
-            // Hiện form chính
-            formMain.Show();
-
+        { 
             // Đóng form TraCuu
             this.Close();
+
+            // Hiện form chính
+            _formMain.Show();
+
+           
         }
 
         private void btnXuatExcel_Click(object sender, EventArgs e)
         {
-                ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // Nếu bạn sử dụng cho mục đích không thương mại
+            ExcelPackage.LicenseContext = LicenseContext.NonCommercial; // Nếu bạn sử dụng cho mục đích không thương mại
 
             using (SaveFileDialog saveFileDialog = new SaveFileDialog())
             {
@@ -365,5 +366,6 @@ namespace GUI
                 }
             }
         }
+
     }
-  }
+}
